@@ -1,0 +1,43 @@
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 10px;
+    padding: 10px;
+}
+.box1:hover{
+    width: 600px;
+    transition: 2s ease-in ;
+    transition-delay: 0.5s;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform:translate(200px 200px);
+    transform: rotate(90deg);
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    transform: skewX(20deg);
+    margin-left: 100px;
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    box-shadow: 2px 2px 5px green;
+}
+.box4:hover{
+    box-shadow: 6px 6px 10px green;
+}
+.mypic{
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    background-image: url(flat-thinking-man-vector-29534016.jpg);
+    background-size: cover;
+    
+}

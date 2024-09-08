@@ -1,0 +1,21 @@
+#container{
+    width: 50px;
+    height: 50px;
+    border: 100px black;
+    box-shadow: 5px 10px 15px black;
+    background-color: azure;
+    
+    display: flex;
+    flex-direction: row;
+}
+.boxe{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    border: 5px green;
+    border-bottom: red;
+    
+    
+}

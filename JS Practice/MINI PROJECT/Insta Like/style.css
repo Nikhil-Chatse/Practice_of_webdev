@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.contain{
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    border-radius: 8px;
+    position: relative;
+}
+.contain img{
+    width: 80%;
+    height: 90%;
+    object-fit: cover;
+   
+    padding: 20px 25px;
+    margin-left: 1rem;
+    border-radius: 10px;
+
+}
+.contain i{
+    color: rgb(233, 228, 228);
+   font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left : 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0.9;
+    transition: ease-in 0.2s;
+
+  
+}
